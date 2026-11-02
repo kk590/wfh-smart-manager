@@ -1,0 +1,16 @@
+gunicorn
+uvicorn[standard]
+streamlit
+duckduckgo-search
+requests
+beautifulsoup4
+pydantic
+pandas
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+openai
+python-dotenv
+sqlmodel
+fastapi
