@@ -1,0 +1,38 @@
+# The following is a list of files and directories to ignore when building the Docker image.
+# These files and directories will not be included in the Docker image.
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv/
+venv/
+ENV/
+env/
+*.db
+*.sqlite3
+
+# Node / Angular
+node_modules/
+.angular/
+dist/
+*.log
+npm-debug.log*
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Models cache
+.models_cache*.json
+
+# Build
+*.egg-info/
+build/
+dist/
